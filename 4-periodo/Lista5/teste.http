@@ -1,0 +1,96 @@
+### Listar livros com banco vazio
+GET http://localhost:3000/livros
+
+###
+
+### Cadastrar um livro válido
+POST http://localhost:3000/livros
+Content-Type: application/json
+
+{
+  "titulo": "Dom Casmurro",
+  "autor": "Machado de Assis",
+  "ano": 1899,
+  "paginas": 256
+}
+
+###
+
+### Tentar cadastrar sem titulo
+POST http://localhost:3000/livros
+Content-Type: application/json
+
+{
+  "autor": "Machado de Assis",
+  "ano": 1899,
+  "paginas": 256
+}
+
+###
+
+### Tentar cadastrar com ano como string
+POST http://localhost:3000/livros
+Content-Type: application/json
+
+{
+  "titulo": "Memórias Póstumas de Brás Cubas",
+  "autor": "Machado de Assis",
+  "ano": "1881",
+  "paginas": 320
+}
+
+###
+
+### Tentar cadastrar com paginas negativo
+POST http://localhost:3000/livros
+Content-Type: application/json
+
+{
+  "titulo": "O Cortiço",
+  "autor": "Aluísio Azevedo",
+  "ano": 1890,
+  "paginas": -10
+}
+
+###
+
+### Buscar por ID existente
+GET http://localhost:3000/livros/1
+
+###
+
+### Buscar por ID inexistente
+GET http://localhost:3000/livros/999
+
+###
+
+### Atualizar um livro existente
+PUT http://localhost:3000/livros/1
+Content-Type: application/json
+
+{
+  "titulo": "Dom Casmurro - Edição Atualizada",
+  "autor": "Machado de Assis",
+  "ano": 1899,
+  "paginas": 300
+}
+
+###
+
+### Confirmar atualização
+GET http://localhost:3000/livros/1
+
+###
+
+### Deletar um livro existente
+DELETE http://localhost:3000/livros/1
+
+###
+
+### Confirmar que o livro foi removido
+GET http://localhost:3000/livros/1
+
+###
+
+### Listar livros novamente
+GET http://localhost:3000/livros

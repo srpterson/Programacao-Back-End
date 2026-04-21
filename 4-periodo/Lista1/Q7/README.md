@@ -1,0 +1,1 @@
+Foi desenvolvido um script em index.js utilizando o módulo nativo os do Node.js. Com ele, foram obtidas informações do sistema, como o nome do sistema operacional por meio de os.type(), a memória RAM livre com os.freemem() convertida de bytes para gigabytes, e o tempo de atividade do computador com os.uptime(). Os resultados foram exibidos no terminal.

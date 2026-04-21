@@ -1,0 +1,1 @@
+Foi criado um arquivo mensagem.txt contendo um texto simples. No arquivo index.js, foi utilizado o módulo nativo fs do Node.js com o método readFileSync para ler o conteúdo do arquivo de forma síncrona e exibi-lo no terminal.

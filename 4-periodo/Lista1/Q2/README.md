@@ -1,0 +1,1 @@
+Foi criado um módulo nome.js contendo a função primeiroNomeMaiusculo, responsável por receber um nome completo, separar as partes da string e retornar apenas o primeiro nome em letras maiúsculas. No arquivo index.js, a função foi importada com a sintaxe import, utilizando ECMAScript Modules. Para isso, foi configurado "type": "module" no arquivo package.json.

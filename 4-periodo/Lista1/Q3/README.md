@@ -1,0 +1,1 @@
+Foi criado um módulo pessoas.js exportando um array de objetos, onde cada objeto representa uma pessoa com as propriedades nome e idade. No arquivo principal index.js, o array foi importado com require() e o método .filter() foi utilizado para selecionar apenas as pessoas com idade superior a 18 anos.

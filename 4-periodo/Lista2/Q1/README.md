@@ -1,0 +1,1 @@
+Foi criado o arquivo calculadora.js contendo uma função arrow chamada calcular, que recebe o tipo de operação e uma quantidade variável de números por meio do operador rest. Para realizar os cálculos de soma, média e multiplicação, foi utilizado o método reduce(). No arquivo index.js, a função foi importada e testada com diferentes operações, exibindo os resultados no console.

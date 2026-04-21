@@ -1,0 +1,1 @@
+Olá! Este é o conteúdo do arquivo mensagem.txt da questão 6.

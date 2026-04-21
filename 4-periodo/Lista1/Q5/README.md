@@ -1,0 +1,1 @@
+Foi criada uma nova pasta de projeto Node.js e, por meio do terminal, foi executado o comando npm init -y, responsável por gerar automaticamente o arquivo package.json. Esse arquivo contém as configurações iniciais do projeto, como nome, versão, arquivo principal e scripts.

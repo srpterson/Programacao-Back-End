@@ -1,0 +1,1 @@
+Foi criado um middleware validarEvento.mjs que realiza validação condicional dos dados recebidos na rota POST /eventos. Caso o campo online seja false, o campo endereco torna-se obrigatório. A validação é feita antes da execução da rota, garantindo que apenas requisições válidas sejam processadas.
